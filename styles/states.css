@@ -1,0 +1,46 @@
+button {
+  background: var(--black);
+  border-radius: 3px;
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background: var(--teal);
+}
+
+.inverted-button {
+  background: var(--white);
+  color: var(--black);
+}
+
+.inverted-button:hover {
+  background: var(--yellow);
+}
+
+.icon {
+  background: var(--black);
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  mask-size: cover;
+  transition: all 0.5s;
+  width: 20px;
+}
+
+.icon:hover,
+.icon:focus {
+  background: var(--orange);
+}
+
+.icon-fb {
+  mask: url('../images/icon-facebook.svg');
+}
+.icon-ig {
+  mask: url('../images/icon-instagram.svg');
+}
+.icon-tw {
+  height: 17px;
+  mask: url('../images/icon-twitter.svg');
+}

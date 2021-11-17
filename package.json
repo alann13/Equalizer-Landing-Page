@@ -2,7 +2,7 @@
   "name": "eq-landing-page",
   "description": "A landing page project.",
   "author": "inThahouse",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
