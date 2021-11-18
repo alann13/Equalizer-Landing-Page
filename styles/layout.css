@@ -1,5 +1,5 @@
 body {
-  margin: 30px 5% 85px;
+  margin: 30px 5%;
   background-image: url('/images/bg-main-mobile.png');
 }
 
@@ -10,7 +10,7 @@ body {
 @media only screen and (min-width: var(--tablet)) {
   body {
     background-image: url('/images/bg-main-tablet.png');
-    margin: 60px auto 85px;
+    margin: 60px auto;
     max-width: var(--tablet);
   }
 

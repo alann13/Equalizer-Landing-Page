@@ -8,6 +8,7 @@
 /* Page Sections */
 @import url('/styles/layout.css');
 @import url('/styles/header.css');
+@import url('/styles/footer.css');
 
 * {
   font-family: 'IBM Plex Sans', sans-serif;
