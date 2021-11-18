@@ -5,4 +5,12 @@
   --teal: #66e2dc;
   --white: #fcfaf9;
   --yellow: #ffb964;
+
+  /* Animation Time */
+  --transitionTime: 0.5s;
+
+  /* Images Paths */
+  --fbSvgPath: url('../images/icon-facebook.svg');
+  --igSvgPath: url('../images/icon-instagram.svg');
+  --twSvgPath: url('../images/icon-twitter.svg');
 }

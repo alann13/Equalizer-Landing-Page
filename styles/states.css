@@ -3,7 +3,7 @@ button {
   border-radius: 3px;
   color: var(--white);
   cursor: pointer;
-  transition: all 0.5s;
+  transition: all var(--transitionTime);
 }
 
 button:hover {
@@ -19,28 +19,32 @@ button:hover {
   background: var(--yellow);
 }
 
+.icon-fb {
+  mask: var(--fbSvgPath);
+  -webkit-mask: var(--fbSvgPath);
+}
+
+.icon-ig {
+  mask: var(--igSvgPath);
+  -webkit-mask: var(--igSvgPath);
+}
+
+.icon-tw {
+  mask: var(--twSvgPath);
+  -webkit-mask: var(--twSvgPath);
+}
+
 .icon {
   background: var(--black);
-  cursor: pointer;
   display: inline-block;
   height: 20px;
-  mask-size: cover;
-  transition: all 0.5s;
+  mask-repeat: no-repeat;
+  transition: all var(--transitionTime);
   width: 20px;
+  -webkit-mask-repeat: no-repeat;
 }
 
 .icon:hover,
 .icon:focus {
   background: var(--orange);
-}
-
-.icon-fb {
-  mask: url('../images/icon-facebook.svg');
-}
-.icon-ig {
-  mask: url('../images/icon-instagram.svg');
-}
-.icon-tw {
-  height: 17px;
-  mask: url('../images/icon-twitter.svg');
 }
