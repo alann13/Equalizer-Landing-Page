@@ -13,4 +13,8 @@
   --fbSvgPath: url('../images/icon-facebook.svg');
   --igSvgPath: url('../images/icon-instagram.svg');
   --twSvgPath: url('../images/icon-twitter.svg');
+
+  /* Breakpoints */
+  --desktop: 1110px;
+  --tablet: 695px;
 }

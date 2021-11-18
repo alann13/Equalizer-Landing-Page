@@ -21,17 +21,14 @@ button:hover {
 
 .icon-fb {
   mask: var(--fbSvgPath);
-  -webkit-mask: var(--fbSvgPath);
 }
 
 .icon-ig {
   mask: var(--igSvgPath);
-  -webkit-mask: var(--igSvgPath);
 }
 
 .icon-tw {
   mask: var(--twSvgPath);
-  -webkit-mask: var(--twSvgPath);
 }
 
 .icon {

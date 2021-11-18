@@ -1,0 +1,35 @@
+body {
+  margin: 30px 5% 85px;
+  background-image: url('/images/bg-main-mobile.png');
+}
+
+.primary-bg-pattern {
+  display: none;
+}
+
+@media only screen and (min-width: var(--tablet)) {
+  body {
+    background-image: url('/images/bg-main-tablet.png');
+    margin: 60px auto 85px;
+    max-width: var(--tablet);
+  }
+
+  .primary-bg-pattern {
+    display: block;
+    max-width: 230px;
+    position: absolute;
+    right: -5%;
+    top: -30px;
+  }
+}
+
+@media only screen and (min-width: var(--desktop)) {
+  body {
+    background-image: url('/images/bg-main-desktop.png');
+    max-width: var(--desktop);
+  }
+
+  .primary-bg-pattern {
+    right: 0;
+  }
+}

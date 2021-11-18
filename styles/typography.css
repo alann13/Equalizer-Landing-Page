@@ -2,8 +2,10 @@ h1 {
   color: var(--black);
   font-size: 2.5rem;
   font-weight: bold;
-  letter-spacing: -1px;
-  line-height: 1;
+  letter-spacing: -0.45px;
+  line-height: 1.2;
+  margin-bottom: 25px;
+  width: 80%;
 }
 
 h2 {
@@ -41,9 +43,13 @@ a {
   line-height: 1;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: var(--tablet)) {
   h1 {
     font-size: 4rem;
+    letter-spacing: -0.75px;
+    line-height: 1;
+    margin-bottom: 30px;
+    width: 100%;
   }
 
   p {
@@ -51,7 +57,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: var(--desktop)) {
   h1 {
     font-size: 5.5rem;
   }

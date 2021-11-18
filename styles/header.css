@@ -1,0 +1,27 @@
+.header-texts-container {
+  margin: 30px 0 70px;
+  width: 100%;
+}
+
+.primary-paragraph {
+  line-height: 1.7;
+  width: 100%;
+}
+
+@media only screen and (min-width: var(--tablet)) {
+  .header-texts-container {
+    margin: 40px 0 70px;
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: var(--desktop)) {
+  .header-texts-container {
+    margin: 60px 0 150px;
+    width: 80%;
+  }
+
+  .primary-paragraph {
+    width: 95%;
+  }
+}
