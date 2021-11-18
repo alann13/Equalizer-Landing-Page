@@ -3,11 +3,12 @@
 /* Design System */
 @import url('/styles/variables.css');
 @import url('/styles/typography.css');
-@import url('/styles/states.css');
+@import url('/styles/buttons.css');
+@import url('/styles/layout.css');
 
 /* Page Sections */
-@import url('/styles/layout.css');
 @import url('/styles/header.css');
+@import url('/styles/illustration.css');
 @import url('/styles/footer.css');
 
 * {

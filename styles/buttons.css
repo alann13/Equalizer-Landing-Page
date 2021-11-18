@@ -1,8 +1,13 @@
 button {
+  align-items: center;
   background: var(--black);
-  border-radius: 3px;
+  border-radius: 8px;
   color: var(--white);
   cursor: pointer;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  padding: 10px 0;
   transition: all var(--transitionTime);
 }
 
@@ -38,7 +43,6 @@ button:hover {
   mask-repeat: no-repeat;
   transition: all var(--transitionTime);
   width: 20px;
-  -webkit-mask-repeat: no-repeat;
 }
 
 .icon:hover,
